@@ -17,7 +17,7 @@ This guide will help you set up a Blockcast node using Docker. You’ll also com
 ✅ Stable Internet Connection
 
 ## 🔐 Account Setup
-1. Access the Platform: Blockcast Website
+1. Access the Platform: [Blockcast Website](https://app.blockcast.network?referral-code=uBheL8)
 2. Sign Up: Use a valid email address.
 3. Connect Wallet: Use a spare Solana wallet.
 4. Bind Accounts: Link your Twitter and Discord.
@@ -126,5 +126,5 @@ Use a reliable VPS provider if needed:
 3. Analyst VPS Seller  : https://t.me/miftaikyy
 
 ## 📬 Need Help?
-Join the https://t.me/AirdropAnalystChat or https://discord.com/invite/jAFhqqNSDj open an issue in the repo for support.
+Join the [AirdropAnalystChat](https://t.me/AirdropAnalystChat) or [Blockcast Discord](https://discord.com/invite/jAFhqqNSDj) open an issue in the repo for support.
 
