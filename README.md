@@ -121,8 +121,13 @@ Challenge Key: xxxxxxxxxxxx
 Register URL : https://app.blockcast.network/register?xxxxx
 ```
 
-### Step 2: Register on the Platform
-Click `Register URL` link shown on Exec or follow tutorial below:
+### Step 2: Get location:
+```bash
+curl -s https://ipinfo.io | jq '.city, .region, .country, .loc'
+```
+
+### Step 3: Register on the Platform
+Click `Register URL` link shown on Exec or follow tutorial below & Fill-in your location from previous command.
 
 - Go to [Blockcast Website](https://app.blockcast.network?referral-code=uBheL8)
 - Login with the same email you signed up with.
@@ -134,7 +139,7 @@ Click `Register URL` link shown on Exec or follow tutorial below:
 It usually takes at least 10 minutes or more to be able to register your node into active/online mode.
 ![image](https://github.com/user-attachments/assets/307f6326-96af-45c9-a700-4bc356de341c)
 ```bash
-docker compose logs
+docker compose logs -fn 1000
 ```
 
 ## ✅ Final Notes
