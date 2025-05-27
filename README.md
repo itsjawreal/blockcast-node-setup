@@ -5,6 +5,9 @@
 ## 📝 Quick Overview
 This guide will help you set up a Blockcast node using Docker. You’ll also complete the necessary account setup on the Blockcast platform to link your node for rewards.
 
+![image](https://github.com/user-attachments/assets/acd32f6f-dd5d-4396-99db-6016b743347b)
+
+
 ## 🛠️ System Requirements
 ✅ Ubuntu-based Linux (tested on 20.04+)
 
@@ -29,6 +32,20 @@ Complete Quests: Navigate to your profile dashboard and finish any available que
 ```bash
 sudo apt update && sudo apt upgrade -y
 sudo apt install ca-certificates curl gnupg lsb-release -y
+```
+```bash
+ufw allow 8080
+ufw allow 8080/tcp
+ufw allow 8089
+ufw allow 8089/tcp
+```
+
+If the ufw (Uncomplicated Firewall) command does require root privileges to run use this :
+```bash
+sudo ufw allow 8080
+sudo ufw allow 8080/tcp
+sudo ufw allow 8089
+sudo ufw allow 8089/tcp
 ```
 
 ### Step 2: Install Docker
@@ -124,6 +141,19 @@ Use a reliable VPS provider if needed:
 1. Hetzner             : https://www.hetzner.com/cloud/?
 2. Contabo             : https://contabo.com/en/vps/
 3. Analyst VPS Seller  : https://t.me/miftaikyy
+
+### Usefull Command
+1. Project (stop or run)
+```bash
+cd beacon-docker-compose
+git pull origin main
+docker compose down
+docker compose up -d
+```
+2. See your Device castID & challengeID
+```bash
+docker compose exec blockcastd blockcastd init
+```
 
 ## 📬 Need Help?
 Join the [AirdropAnalystChat](https://t.me/AirdropAnalystChat) or [Blockcast Discord](https://discord.com/invite/jAFhqqNSDj) open an issue in the repo for support.
