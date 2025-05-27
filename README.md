@@ -108,7 +108,7 @@ docker compose up -d
 ```bash
 docker compose ps -a
 ```
-Response:
+Response should be:
 ```yaml
 NAME                                 IMAGE                             COMMAND                  SERVICE           
 beacon-docker-compose-watchtower-1   containrrr/watchtower             "/watchtower"            watchtower 
