@@ -96,10 +96,17 @@ docker compose up -d
 ```
 
 ### Step 3: Confirm it's Running
-![image](https://github.com/user-attachments/assets/e6ae7fc3-1963-45b3-a417-4d9b0d7439d2)
 
 ```bash
-docker ps
+docker compose ps -a
+```
+Response:
+```yaml
+NAME                                 IMAGE                             COMMAND                  SERVICE           
+beacon-docker-compose-watchtower-1   containrrr/watchtower             "/watchtower"            watchtower 
+beacond                              blockcast/cdn_gateway_go:stable   "/usr/bin/beacond -l…"   beacond     
+blockcastd                           blockcast/cdn_gateway_go:stable   "/usr/bin/blockcastd…"   blockcastd    
+control_proxy                        blockcast/cdn_gateway_go:stable   "/usr/bin/control_pr…"   control_proxy 
 ```
 
 ## 🔑 Register Your Node
@@ -137,7 +144,7 @@ Click `Register URL` link shown on Exec or follow tutorial below & Fill-in your 
 
 ### Step 3: Check log 
 It usually takes at least 10 minutes or more to be able to register your node into active/online mode.
-![image](https://github.com/user-attachments/assets/307f6326-96af-45c9-a700-4bc356de341c)
+
 ```bash
 docker compose logs -fn 1000
 ```
