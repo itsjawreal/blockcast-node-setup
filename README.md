@@ -121,18 +121,10 @@ docker compose logs
 Your node should run 24/7 to remain eligible for rewards.
 Use a reliable VPS provider if needed:
 
-1. Hetzner
-2. Contabo
+1. Hetzner             : https://www.hetzner.com/cloud/?
+2. Contabo             : https://contabo.com/en/vps/
+3. Analyst VPS Seller  : https://t.me/miftaikyy
 
-## 📸 Screenshots (Optional)
-You can add relevant screenshots like:
-
-Running container (docker ps)
-
-Dashboard / Node registration page
-
-Output from blockcastd init
-
-📬 Need Help?
-Join the Blockcast Discord or open an issue in the repo for support.
+## 📬 Need Help?
+Join the https://t.me/AirdropAnalystChat or https://discord.com/invite/jAFhqqNSDj open an issue in the repo for support.
 
