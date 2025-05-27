@@ -104,7 +104,7 @@ Register URL : https://app.blockcast.network/register?xxxxx
 ### Step 2: Register on the Platform
 Click `Register URL` link shown on Exec or follow tutorial below:
 
-- Go to Blockcast
+- Go to [Blockcast Website](https://app.blockcast.network?referral-code=uBheL8)
 - Login with the same email you signed up with.
 - Click "Manage Node" → "Register Node".
 - Paste your Hardware ID and Challenge Key.
