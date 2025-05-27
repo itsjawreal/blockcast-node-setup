@@ -7,9 +7,17 @@ This guide will help you set up a Blockcast node using Docker. You’ll also com
 
 ![image](https://github.com/user-attachments/assets/acd32f6f-dd5d-4396-99db-6016b743347b)
 
+### 🎁 Reward System Details
+Blockcast incentivizes participants through a 6-month Proof of Resources Epoch, where rewards are distributed based on your node's performance and contribution to the network.
+
+### 🏆 Epoch Overview
+- Duration: 6 months
+- Objective: Reward nodes that contribute network reliability, performance, and decentralization
+- Special NFTs will be awarded to top-performing nodes at the end of each epoch
+  
 
 ## 🛠️ System Requirements
-✅ Ubuntu-based Linux (tested on 20.04+)
+✅ Ubuntu-based Linux (tested on 20.04+) / WSL Windows Users ([READ HERE](https://github.com/0xmoei/Install-Linux-on-Windows))
 
 ✅ Docker & Docker Compose
 
