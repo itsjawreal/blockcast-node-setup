@@ -84,6 +84,9 @@ docker compose version
 git clone https://github.com/Blockcast/beacon-docker-compose.git
 cd beacon-docker-compose
 ```
+```bash
+curl -o $HOME/beacon-docker-compose/docker-compose.yml https://raw.githubusercontent.com/molla202/Block-cast/refs/heads/main/docker-compose.yml
+```
 
 ### Step 2: Start the Node
 ![image](https://github.com/user-attachments/assets/3c4e4283-dfe7-44d1-95e8-b28f703f0603)
