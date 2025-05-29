@@ -38,12 +38,9 @@ echo "✅ Docker Version:"
 docker --version
 docker compose version
 
-# Step 6: Clone Repository
-echo "📁 Cloning Blockcast repo..."
-cd $HOME
-git clone https://github.com/Blockcast/beacon-docker-compose.git
-cd beacon-docker-compose
-curl -o $HOME/beacon-docker-compose/docker-compose.yml https://raw.githubusercontent.com/molla202/Block-cast/refs/heads/main/docker-compose.yml
+# Step 6: Overwrite docker-compose.yml from source if needed
+echo "📄 Downloading latest docker-compose.yml..."
+curl -o ./docker-compose.yml https://raw.githubusercontent.com/molla202/Block-cast/refs/heads/main/docker-compose.yml
 
 # Step 7: Start the Node
 echo "🚦 Starting Blockcast node..."
@@ -64,6 +61,7 @@ curl -s https://ipinfo.io | jq '.city, .region, .country, .loc'
 echo ""
 echo "✅ INSTALLATION COMPLETE!"
 echo "🎯 Next steps:"
+echo "- Read the 🔑 Register Your Node on README.md"
 echo "- Visit the Register URL shown above to register your node."
 echo "- Then check logs: docker compose logs -fn 1000"
 echo "- Manage node: cd ~/beacon-docker-compose && docker compose down && docker compose up -d"
