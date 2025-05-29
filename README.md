@@ -35,7 +35,24 @@ Blockcast incentivizes participants through a 6-month Proof of Resources Epoch, 
 
 Complete Quests: Navigate to your profile dashboard and finish any available quests.
 
-## 🐳 Node Installation Steps
+## 🐳 Node Auto Installation Steps
+### Step 1: Clone the Repository
+```bash
+git clone https://github.com/Blockcast/blockcast-node-setup.git
+cd blockcast-node-setup
+```
+
+### Step 2: Run to install
+```bash
+chmod +x install.sh
+./install.sh
+```
+
+### Step 3: Complete Registrations
+Go to "🔑 Register Your Node" to completing your Node registrations
+
+
+## 🐳 Node Manual Installation Steps
 ### Step 1: Update Your System
 ```bash
 sudo apt update && sudo apt upgrade -y
