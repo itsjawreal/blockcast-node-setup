@@ -49,7 +49,7 @@ chmod +x install.sh
 ```
 
 ### Step 3: Complete Registrations
-Go to "[🔑 Register Your Node](https://github.com/itsjawreal/blockcast-node-setup?tab=readme-ov-file#-register-your-node)" to completing your Node registrations
+Go to "[🔑 Register Your Node](#-register-your-node)" to completing your Node registrations
 
 
 ## 🐳 Node Manual Installation Steps
